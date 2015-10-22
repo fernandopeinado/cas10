@@ -14,6 +14,7 @@
         <cas10.aspectj>1.8.6</cas10.aspectj>
         <cas10.groovy>2.4.5</cas10.groovy>
         <cas10.hibernate>4.3.11.Final</cas10.hibernate>
+        <cas10.jackson-databind>2.6.3</cas10.jackson-databind>
         <cas10.liquibase>3.4.1</cas10.liquibase>
         <cas10.spring>4.2.2.RELEASE</cas10.spring>
         <cas10.spring-security>4.0.2.RELEASE</cas10.spring-security>
@@ -30,6 +31,11 @@
                 <artifactId>groovy-all</artifactId>
                 <version>${cas10.groovy}</version>
                 <classifier>indy</classifier>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${cas10.jackson-databind}</version>
             </dependency>
             <dependency>
                 <groupId>org.liquibase</groupId>

@@ -33,6 +33,16 @@ public class Role implements Identified {
     private String description;
     @Column(length = 2000)
     private String help;
+
+    public Role() {
+    }
+
+    public Role(String name, String group, String description, String help) {
+        this.name = name;
+        this.group = group;
+        this.description = description;
+        this.help = help;
+    }
     
     public Long getId() {
         return id;

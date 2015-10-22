@@ -19,6 +19,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
  *
@@ -28,7 +29,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan({"br.com.cas10.domain"})
 @EnableTransactionManagement(proxyTargetClass = true)
 @EnableWebMvc
-public class WebConfig {
+public class WebConfig extends WebMvcConfigurerAdapter {
     
     @Bean 
     public JndiObjectFactoryBean datasource() {

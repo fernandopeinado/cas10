@@ -1,8 +1,8 @@
+br/com/cas10/domain/security/impl/RoleController.class
+br/com/cas10/domain/security/UserGroup.class
 br/com/cas10/domain/CrudDAO.class
 br/com/cas10/domain/BaseCrudDAO.class
 br/com/cas10/domain/security/Role.class
 br/com/cas10/domain/Identified.class
-br/com/cas10/domain/security/User.class
-br/com/cas10/domain/security/impl/RoleController.class
 br/com/cas10/domain/security/impl/RoleDAO.class
-br/com/cas10/domain/security/UserGroup.class
+br/com/cas10/domain/security/User.class
