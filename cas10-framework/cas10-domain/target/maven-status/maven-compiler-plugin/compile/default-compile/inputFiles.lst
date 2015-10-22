@@ -1,0 +1,8 @@
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/CrudDAO.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/security/Role.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/security/impl/RoleDAO.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/Identified.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/security/impl/RoleController.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/security/UserGroup.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/security/User.java
+/home/kasten/workspace/cas10/cas10-framework/cas10-domain/src/main/java/br/com/cas10/domain/BaseCrudDAO.java
